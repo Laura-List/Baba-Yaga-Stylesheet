@@ -1,0 +1,236 @@
+body {
+    margin: 0 6%;
+    font-family: 'Libre Baskerville', 'Montserrat', 'Mukta', sans-serif;
+    color: hsla(226, 34%, 13%, 1);
+}
+
+.title {
+    color: hsla(0, 42%, 18%, 1);
+    background-color: hsla(39, 79%, 48%, 1);
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Libre Baskerville", sans-serif;
+    width: 65%;
+    border: 5px solid hsla(45, 89%, 54%, 1);
+}
+
+img {
+    display: inline-block;
+    width: 45%;
+    height: 45%;
+}
+
+div {
+    display: block;
+}
+
+.credit {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    font-family: mukta;
+}
+
+.artist {
+    color: hsla(5, 49%, 37%, 1);
+    font-size: 19px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.artist:hover {
+    color: hsla(0, 42%, 18%, 1);
+    text-decoration: underline;
+}
+
+.container {
+    border: 3px solid;
+    margin: 10px 10px;
+    padding: 10px;
+    color: hsla(220, 39%, 25%, 1);
+}
+
+.text-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 10px 5px;
+    min-height: 100px;
+}
+
+.color-links {
+    text-decoration: none;
+    color: hsla(360, 100%, 100%, 1);
+    font-family: mukta;
+}
+
+.color-links-dark {
+    font-family: Mukta;
+    text-decoration: none;
+    color: hsla(226, 34%, 13%, 1)
+}
+
+.blue-black {
+    background-color: hsla(226, 34%, 13%, 1);
+    color: hsla(360, 100%, 100%, 1);
+}
+
+.deep-blue {
+    background-color: hsla(220, 39%, 25%, 1);
+    color: hsla(360, 100%, 100%, 1);
+}
+
+.deep-red {
+    background-color: hsla(0, 42%, 18%, 1);
+    color: hsla(360, 100%, 100%, 1);
+}
+
+.rust {
+    background-color: hsla(5, 49%, 37%, 1);
+    color: hsla(360, 100%, 100%, 1);
+}
+
+.deep-yellow {
+    background-color: hsla(39, 79%, 48%, 1);
+    color: hsla(220, 39%, 25%, 1);
+}
+
+.yellow {
+    background-color: hsla(45, 89%, 54%, 1);
+    color: hsla(220, 39%, 25%, 1);
+}
+
+h2 {
+    text-transform: uppercase;
+    color: hsla(226, 34%, 13%, 1);
+    font-family: Montserrat;
+    font-style: italic;
+}
+
+.font-label {
+    display: inline-block;
+    width: 45%;
+}
+
+.libre-baskerville {
+    font-family: "Libre-baskerville";
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.libre-baskerville-regular {
+    font-family: "Libre-baskerville";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.libre-baskerville-bold {
+    font-family: "Libre-baskerville";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.libre-baskerville-italic {
+    font-family: "Libre-baskerville";
+    font-style: italic;
+    font-size: 18px;
+}
+
+.montserrat {
+    font-family: montserrat;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.montserrat-extra-light {
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.montserrat-regular {
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.montserrat-regular-italic {
+    font-family: montserrat;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.montserrat-semi-bold-italic {
+    font-family: montserrat;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.mukta {
+    font-family: Mukta;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.mukta-extra-light {
+    font-family: mukta;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.mukta-regular {
+    font-family: mukta;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.mukta-bold {
+    font-family: mukta;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.h1-style {
+    font-family: "libre-baskerville";
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.h1-details {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "libre-baskerville";
+}
+
+.h2-style {
+    font-family: montserrat;
+    font-style: italic;
+    font-size: 28px;
+}
+
+.h2-details {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: montserrat;
+}
+
+.p-style {
+    font-family: mukta;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.p-details {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: mukta;
+}
