@@ -13,12 +13,17 @@ body {
     font-family: "Libre Baskerville", sans-serif;
     width: 65%;
     border: 5px solid hsla(45, 89%, 54%, 1);
+    border-radius: 20px;
 }
 
 img {
     display: inline-block;
     width: 45%;
     height: 45%;
+}
+
+.hut {
+    border-radius: 45px;
 }
 
 div {
@@ -61,6 +66,7 @@ div {
     text-align: center;
     margin: 10px 5px;
     min-height: 100px;
+    border-radius: 25px;
 }
 
 .color-links {
@@ -233,4 +239,11 @@ h2 {
     font-size: 16px;
     font-weight: 400;
     font-family: mukta;
+}
+
+.foot {
+    font-size: 18px;
+    font-style: italic;
+    font-family: montserra, sans-serif;
+    color:hsla(5, 49%, 37%, 1);
 }
