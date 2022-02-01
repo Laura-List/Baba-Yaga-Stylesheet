@@ -56,10 +56,6 @@ div {
     color: hsla(220, 39%, 25%, 1);
 }
 
-.text-container {
-    display: inline-block;
-}
-
 .color-panel {
     display: inline-block;
     width: 32%;
@@ -204,6 +200,11 @@ h2 {
     font-family: mukta;
     font-size: 18px;
     font-weight: bold;
+}
+
+.text-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .h1-style {
